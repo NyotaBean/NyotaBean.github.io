@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    font-family:cursive;
+    background-color: rgb(182, 219, 182);
+}
+
+header {
+    background-color: green;
+    color: white;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+#title {
+    text-align: center;
+    font-size: 40px;
+
+}
+
+#links li {
+    display: inline;
+    padding: 30px;
+    
+}
+
+#links li:hover {
+    background-color: green;
+}
+
+#links a {
+    color: black;
+}
+
+nav {
+    text-align: center;
+    background-color: seashell;
+    border-top: 1px white solid;
+    border-bottom: 1px white solid;
+}
+
+section {
+    padding: 30px;
+}
+
+#image {
+    width: 25%;
+    height:25%;
+    margin: 5px;
+    border: 2px green solid;
+}
+
+#steve {
+    width: 15%;
+    height: 15%;
+    border:2px green solid;
+    border-radius: 20px;       
+}
+
+#alex {
+    width: 15%;
+    height: 15%;
+    border:2px green solid;
+    border-radius: 20px;
+}
+
+caption {
+    font-size: 30px;
+    background-color: rgb(16, 71, 16);
+    color: white;
+}
+
+.enemiesImg {
+    width: 225px;
+    height: 225px;
+    border:2px green solid;
+    border-radius: 20px;
+}
+
+th {
+    background-color: rgb(100, 180, 100);
+    color: white;
+}
+
+td {
+    background-color:rgb(218, 218, 218);
+    color: black;
+    padding: 10px;
+}
+
+table,th,td,caption {
+    border-collapse:collapse;
+    border: 2px green solid;
+    padding: 20px;
+}
+
+.locationImg {
+    width: 370px;
+    height: 200px;
+    border: 2px green solid;
+    border-radius: 20px;    
+}
