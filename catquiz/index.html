@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>Cat Quiz</title>
+    </head>
+    <body>
+        <header>
+            <h1 id="title">How well do you know cats?</h1>
+            <img id="cat" src="images/cat.jpg">
+        </header>
+        <section>
+            
+<!--options radio q1-->
+            <h2>Question 1</h2>
+            <p>What is the most popular breed of cat?</p>
+
+            <form action="submit.php" method="GET" target="_blank">
+            <input type="radio" id="mainecoon" name="breed" value="mainecoon">
+            <label for="mainecoon">Maine Coon</label></br>
+
+            <input type="radio" id="ragdoll" name="breed" value="ragdoll">
+            <label for="ragdoll">Ragdoll</label></br>
+
+            <input type="radio" id="Void" name="breed" value="Void">
+            <label for="Void">Void</label></br>
+
+            <input type="radio" id="British Shorthair" name="breed" value="British Shorthair">
+            <label for="British Shorthair">British Shorthair</label></br>
+
+<!--options radio q2-->
+            <h2>Question 2</h2>
+            <p>What does it mean when a cat slow blinks at you?</p>
+
+             <input type="radio" id="theyloveyou" name="question2" value="theyloveyou">
+            <label for="theyloveyou">They love you</label></br>
+
+            <input type="radio" id="theyhateyou" name="question2" value="theyhateyou">
+            <label for="theyhateyou">They hate you</label></br>
+
+            <input type="radio" id="theyarescared" name="question2" value="theyarescared">
+            <label for="theyarescared">They are scared</label></br>
+
+            <input type="radio" id="theyaremad" name="question2" value="theyaremad">
+            <label for="theyaremad">They are mad</label></br>
+             
+<!--options checkboxes q3-->
+
+            <h2>Question 3</h2>
+            <p>Which of the following are common cat behaviors? (Select all that apply)</p>
+
+            <input type="checkbox" id="purring" name="behavior" value="purring">
+            <label for="purring">Purring</label></br>
+
+            <input type="checkbox" id="kneading" name="behavior" value="kneading">
+            <label for="kneading">Kneading</label></br>
+
+            <input type="checkbox" id="hissing" name="behavior" value="hissing">
+            <label for="hissing">Hissing</label></br>
+
+            <input type="checkbox" id="tailflicking" name="behavior" value="tailflicking">
+            <label for="tailflicking">Tail Flicking</label></br>
+              
+<!--options checkboxes q4-->
+            <h2>Question 4</h2>
+            <p>Are cats amazing? (Select all that apply)</p>
+            <input type="checkbox" id="yes" name="answer" value="yes">
+            <label for="yes">Yes</label></br>
+
+            <input type="checkbox" id="absolutely" name="answer" value="absolutely">
+            <label for="absolutely">Absolutely</label></br>
+
+            <input type="checkbox" id="ofcourse" name="answer" value="ofcourse">
+            <label for="ofcourse">Of Course!</label></br>
+
+            <input type="checkbox" id="duh" name="answer" value="duh">
+            <label for="duh">Duh!</label></br>
+            
+            <input type="submit" value="Click to Submit"><input type="reset" value="Reset">
+
+            </form>
+        </section>
+    </body>
+</html>
