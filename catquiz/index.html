@@ -3,6 +3,7 @@
     <head>
         <link rel="stylesheet" type="text/css" href="style.css">
         <title>Cat Quiz</title>
+        <script src="code.js"></script>
     </head>
     <body>
         <header>
@@ -76,8 +77,11 @@
             <input type="checkbox" id="duh" name="answer" value="duh">
             <label for="duh">Duh!</label></br>
             
-            <input type="submit" value="Click to Submit"><input type="reset" value="Reset">
+            <input type="button" value="Click to Submit" onclick="gradeQuiz()">
+            <input type="reset" value="Reset">
 
+            <p id="result"></p>
+            <p id="incorrect"></p>
             </form>
         </section>
     </body>
