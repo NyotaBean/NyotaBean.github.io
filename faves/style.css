@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(250, 215, 234);
+    padding: 20px;
+}
+
+h1 {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+p {
+    color: white;
+    font-size: 25px;
+    text-align: left;
+}
+
+ul {
+    color: violet;
+    text-align:left;
+    font-size: 20px;
+}
+
+li {
+    margin: 18px;
+}
